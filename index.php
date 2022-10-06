@@ -10,6 +10,7 @@
 </head>
 <body>
     <h1>upload your picture here</h1>
+    <h2>some of my favourite pictures</h2>
     <form action="upload.php" method="POST" enctype="multipart/form-data"><br>
         <input type="file" name="fileToUpload"><br>
         <input type="text" name="pic_description" placeholder="describe image"><br>
