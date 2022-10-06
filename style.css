@@ -1,0 +1,66 @@
+/* styling the input types */
+ 
+ input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+  border-radius: 4px;
+  background-color: lightblue;
+  color: white;
+  border: 3px solid #555;
+  } 
+
+  /* styling a button */
+  input[type=button], input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  } 
+
+  /* styling images */
+   img {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  } 
+
+  /* styling h1 */
+    h1 {
+    display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold
+  } 
+
+  /* paragraphs */
+  p {
+    color: blue;
+    text-indent: 40px;
+    font-weight:600;
+  }
+
+  /* body */
+  body {
+    display: block;
+    margin: 8px;
+    background-color: rgb(194, 196, 194);
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
