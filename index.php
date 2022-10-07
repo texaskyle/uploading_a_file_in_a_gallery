@@ -11,6 +11,9 @@
 <body>
     <h1>upload your picture here</h1>
     <h2>some of my favourite pictures</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem adipisci veritatis necessitatibus,
+         iure vel mollitia facilis eligendi? Nemo cupiditate doloribus consectetur distinctio blanditiis nihil culpa ex 
+         non! Dolores, sunt porro!</p>
     <form action="upload.php" method="POST" enctype="multipart/form-data"><br>
         <input type="file" name="fileToUpload"><br>
         <input type="text" name="pic_description" placeholder="describe image"><br>
